@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent">
+
+                </View>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_of_ivent"
+                    android:textSize="40sp"
+                    android:inputType="text">
+                </EditText>
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent">
+
+                </View>
+                <Button
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:background="#f00"
+                    android:gravity="right">
+                </Button>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent">
+
+                </View>
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Начало   "
+                    android:textSize="20sp">
+                </TextView>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="datetime"
+                    android:text="08:00"
+                    android:textSize="20sp">
+                </EditText>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent">
+
+                </View>
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Конец"
+                    android:textSize="20sp">
+                </TextView>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="datetime"
+                    android:text="09:00"
+                    android:textSize="20sp">
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content">
+
+                </View>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Описание"
+                    android:inputType="textLongMessage">
+
+                </EditText>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
