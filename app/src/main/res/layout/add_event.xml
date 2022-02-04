@@ -22,7 +22,7 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/name_of_ivent"
+                    android:text="@string/name_of_event"
                     android:textSize="40sp"
                     android:inputType="text">
                 </EditText>
@@ -51,7 +51,7 @@
                 <TextView
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:text="Начало   "
+                    android:text="Start time   "
                     android:textSize="20sp">
                 </TextView>
 
@@ -76,7 +76,7 @@
                 <TextView
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:text="Конец"
+                    android:text="End time"
                     android:textSize="20sp">
                 </TextView>
 
@@ -100,7 +100,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Описание"
+                    android:text="Description"
                     android:inputType="textLongMessage">
 
                 </EditText>
